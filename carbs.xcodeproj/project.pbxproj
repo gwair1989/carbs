@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		1F07655725E675EB00BD47DE /* RecalculateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F07655625E675EB00BD47DE /* RecalculateVC.swift */; };
 		1F07655D25E6EDE100BD47DE /* BmrBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F07655C25E6EDE100BD47DE /* BmrBrain.swift */; };
-		1F07656025E6EE0500BD47DE /* bmr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F07655F25E6EE0500BD47DE /* bmr.swift */; };
+		1F07656025E6EE0500BD47DE /* BMR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F07655F25E6EE0500BD47DE /* BMR.swift */; };
 		1FAB84EF25B61C1000AF7A37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAB84EE25B61C1000AF7A37 /* AppDelegate.swift */; };
 		1FAB84F125B61C1000AF7A37 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAB84F025B61C1000AF7A37 /* SceneDelegate.swift */; };
 		1FAB84F325B61C1000AF7A37 /* CalculateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAB84F225B61C1000AF7A37 /* CalculateVC.swift */; };
@@ -21,7 +21,7 @@
 /* Begin PBXFileReference section */
 		1F07655625E675EB00BD47DE /* RecalculateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecalculateVC.swift; sourceTree = "<group>"; };
 		1F07655C25E6EDE100BD47DE /* BmrBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BmrBrain.swift; sourceTree = "<group>"; };
-		1F07655F25E6EE0500BD47DE /* bmr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bmr.swift; sourceTree = "<group>"; };
+		1F07655F25E6EE0500BD47DE /* BMR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMR.swift; sourceTree = "<group>"; };
 		1FAB84EB25B61C1000AF7A37 /* carbs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = carbs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FAB84EE25B61C1000AF7A37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FAB84F025B61C1000AF7A37 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,7 +47,7 @@
 			isa = PBXGroup;
 			children = (
 				1F07655C25E6EDE100BD47DE /* BmrBrain.swift */,
-				1F07655F25E6EE0500BD47DE /* bmr.swift */,
+				1F07655F25E6EE0500BD47DE /* BMR.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -171,7 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F07655D25E6EDE100BD47DE /* BmrBrain.swift in Sources */,
-				1F07656025E6EE0500BD47DE /* bmr.swift in Sources */,
+				1F07656025E6EE0500BD47DE /* BMR.swift in Sources */,
 				1FAB84F325B61C1000AF7A37 /* CalculateVC.swift in Sources */,
 				1F07655725E675EB00BD47DE /* RecalculateVC.swift in Sources */,
 				1FAB84EF25B61C1000AF7A37 /* AppDelegate.swift in Sources */,

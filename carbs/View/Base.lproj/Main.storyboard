@@ -274,9 +274,9 @@
                                                 <rect key="frame" x="0.0" y="55.5" width="374" height="55.5"/>
                                                 <subviews>
                                                     <segmentedControl hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="1" translatesAutoresizingMaskIntoConstraints="NO" id="p9t-xn-4vu">
-                                                        <rect key="frame" x="30" y="12.5" width="314" height="32"/>
+                                                        <rect key="frame" x="49.5" y="12.5" width="275" height="32"/>
                                                         <segments>
-                                                            <segment title="Losing weight"/>
+                                                            <segment title="Losing"/>
                                                             <segment title="Maintaining"/>
                                                             <segment title="Raising"/>
                                                         </segments>
@@ -285,7 +285,7 @@
                                                         </connections>
                                                     </segmentedControl>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Maintaining" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Jd-8K-dEc">
-                                                        <rect key="frame" x="135" y="14" width="104" height="28"/>
+                                                        <rect key="frame" x="141.5" y="14" width="91" height="28"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <nil key="textColor"/>
