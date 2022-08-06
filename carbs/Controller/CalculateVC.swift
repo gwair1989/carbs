@@ -113,7 +113,7 @@ class CalculateVC: UIViewController, UITextFieldDelegate {
     
     
     //    MARK: - SETUP UI
-    func enterData () {
+    func enterData() {
         if ageTextField.text == "" {
             ageTextField.placeholder = "Enter your age!"
         } else if weightTextField.text == "" {
