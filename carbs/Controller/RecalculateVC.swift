@@ -14,6 +14,7 @@ class RecalculateVC: UIViewController {
     @IBOutlet weak var targetSegmented: UISegmentedControl!
     @IBOutlet weak var resultBlurView: UIVisualEffectView!
     @IBOutlet weak var targetBlurView: UIVisualEffectView!
+    @IBOutlet weak var buyButton: UIButton!
     
     private let resultLabel: UILabel = {
         let obj = UILabel()
@@ -35,11 +36,18 @@ class RecalculateVC: UIViewController {
     //    MARK: - viewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
+        if let isBuy = UserDefaults.standard.value(forKey: "isBuy") as? Bool {
+            if isBuy {
+                buyButton.isHidden = true
+                maintainingLabel.isHidden = true
+                targetSegmented.isHidden = false
+            }
+        }
+        
         resultBlurView.contentView.addSubview(resultLabel)
         targetBlurView.contentView.addSubview(targetLabel)
         setupUI()
         setupUI(numberOfSegment: 1)
-        
     }
     
     //    MARK: - Action & Methods
@@ -59,6 +67,8 @@ class RecalculateVC: UIViewController {
     }
     
     @IBAction func pressedBuy(_ sender: UIButton) {
+        sender.isHidden = true
+        UserDefaults.standard.set(true, forKey: "isBuy")
         maintainingLabel.isHidden = true
         targetSegmented.isHidden = false
     }

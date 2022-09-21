@@ -404,6 +404,7 @@
                     <navigationItem key="navigationItem" id="DVh-sn-cHy"/>
                     <connections>
                         <outlet property="backgroundGender" destination="Cry-Bd-gak" id="jLM-Mp-TeF"/>
+                        <outlet property="buyButton" destination="bnR-lq-l9e" id="mvf-3t-STl"/>
                         <outlet property="maintainingLabel" destination="6Jd-8K-dEc" id="EmB-Cl-zla"/>
                         <outlet property="resultBlurView" destination="Hqv-RV-2M7" id="eH4-P8-obp"/>
                         <outlet property="targetBlurView" destination="6xD-v8-pdD" id="5vB-eo-f3s"/>
